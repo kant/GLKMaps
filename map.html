@@ -38,16 +38,16 @@
                   "Latitude: " + item.latmin + " - " + item.latmax + "<br/>";
                    /*   '<img src="http://www.bware.it/listing/LKMAPS/' + item.mapzone + '/' + item.name + '.JPG" border="0" /><br/>'*/
     if (item.res["1000"] == true) 
-      content += "Terrain 1000m: <a href=\"http://www.bware.it/listing/LKMAPS/" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_1000.DEM\">" + item.name + "_1000.DEM</a><br/>";
+      content += "Terrain 1000m: <a href=\"http://www.lk8000.it/download/maps.html" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_1000.DEM\">" + item.name + "_1000.DEM</a><br/>";
     if (item.res["500"] == true) 
-      content += "Terrain 500m: <a href=\"http://www.bware.it/listing/LKMAPS/" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_500.DEM\">" + item.name + "_500.DEM</a><br/>";
+      content += "Terrain 500m: <a href=\"http://www.lk8000.it/download/maps.html" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_500.DEM\">" + item.name + "_500.DEM</a><br/>";
     if (item.res["250"] == true) 
-      content += "Terrain 250m: <a href=\"http://www.bware.it/listing/LKMAPS/" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_250.DEM\">" + item.name + "_250.DEM</a><br/>";
+      content += "Terrain 250m: <a href=\"http://www.lk8000.it/download/maps.html" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_250.DEM\">" + item.name + "_250.DEM</a><br/>";
     if (item.res["90"] == true) 
-      content += "Terrain 90m: <a href=\"http://www.bware.it/listing/LKMAPS/" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_90.DEM\">" + item.name + "_90.DEM</a><br />";
+      content += "Terrain 90m: <a href=\"http://www.lk8000.it/download/maps.html" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + "_90.DEM\">" + item.name + "_90.DEM</a><br />";
 
     if (item.topology == "YES")
-      content += "Topology: <a target=\"_blank\" href=\"http://www.bware.it/listing/LKMAPS/" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + ".LKM\">" + item.name + ".LKM";
+      content += "Topology: <a target=\"_blank\" href=\"http://www.lk8000.it/download/maps.html" + item.mapzone + "/" + item.dir + ".DIR/" + item.name + ".LKM\">" + item.name + ".LKM";
     
     myState.infoWindow.setContent(content);
     myState.infoWindow.setPosition(new google.maps.LatLng(lat, lon));
